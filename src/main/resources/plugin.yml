@@ -1,0 +1,20 @@
+name: InfiniteLavaSourceX
+version: '${version}'
+main: de.scholle.infinitelavasourcex.InfiniteLavaSourceX
+prefix: InfinteLavaSource
+load: STARTUP
+authors: [Mobilestars]
+description: A plugin that makes lavasources infinite like water.
+website: https://modrinth.com/project/infinitelavasourcex
+
+commands:
+  infinitelavasource:
+    description: Controls InfiniteLavaSourceX
+    usage: /<command> <enable|disable|reload>
+    aliases: [ils]
+    permission: infinitelavasourcex.command
+
+permissions:
+  infinitelavasourcex.command:
+    description: Allows the use of InfiniteLavaSourceX commands
+    default: op
